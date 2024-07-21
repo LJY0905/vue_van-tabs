@@ -49,7 +49,8 @@ overflow-x: auto;
 
 获取在整个页面中 `tab` 栏距离顶部的距离已经对应的标签元素距离顶部的距离，当点击 `tab` 时，默认 `tab` 栏滚动到页面顶部，滚动距离为 tab 栏到顶部距离，然后再滚动标签页到顶部距离-`tab` 栏高度。注意页面滚动时由于元素高度问题，`scrollTop` 可能不生效，可以用
 
-```window.scrollTo({
+```
+window.scrollTo({
 left: x,
 top: y,
 behavior: 'smooth'
